@@ -7,7 +7,6 @@ const output = []
 function handleCountChar(str){
   for(let i=0; i<str.length - 1; i++){
     const char = str[i] + str[i+1]
-    console.log(char)
     if(str[i] == 'w')
     {
       output.push(str[i])
